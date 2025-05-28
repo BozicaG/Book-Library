@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" href="style.css">
+   <title>My Books</title>
+   <script src="booksProject.js" defer></script>
+</head>
+<body>
+  
+
+  <header>
+    <h1>My Library</h1>
+    <button id="show-dialog">Add Book</button>
+  </header>
+  <main id="book-container">
+  </article>
+  </main>
+    <dialog id="dialog">
+        <form action="" method="dialog" id="dialogForm">
+            <p>
+                <label>
+                    Title:
+                    <input type="text" name="title" class="title" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Author:
+                    <input type="text" name="author" class="author" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Page Number:
+                    <input type="number" name="pageNumber" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Read Status:
+                    <select name="readStatus" id="stat" required>
+                        <option value="" disabled selected>Select status</option>
+                        <option value="true">Read</option>
+                        <option value="false">Not Read</option>
+                    </select>
+                </label>
+            </p>
+            <div>
+                <input type="submit" value="Submit">
+                <input type="button" value="Cancel" onclick="dialog.close()">
+            </div>
+        </form>
+    </dialog>
+
+</body>
+</html>
