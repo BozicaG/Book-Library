@@ -4,13 +4,13 @@ This is a simple Book Library project built as part of The Odin Project’s Java
 
 ## Features
 
-*Add new books by entering the title, author, and read status
-*Remove books from the library
-*Toggle the read/unread status of each book
+* Add new books by entering the title, author, and read status
+* Remove books from the library
+* Toggle the read/unread status of each book
 
 
 ## Technology used
 
-*HTML
-*CSS
-*JavaScript
+* HTML
+* CSS
+* JavaScript
